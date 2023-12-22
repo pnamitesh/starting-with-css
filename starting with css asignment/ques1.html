@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starting with css assignment</title>
+    <link rel="stylesheet" href="ques1.css">
+    <style>
+
+
+        /* WHEN WE TARGET SAME ELEMENT WITH INLINE ,INTENAL AND EXTERNAL CSS, THEN
+        INLINE CSS HAS THE HIGHEST PRIOPRITY AND THEN INLINE THEN EXTERNAL CSS.
+        THE ORDER IS  SHOWN BELOW.
+        
+        INLINE>INTERNAL>EXTERNAL */
+
+        /* internal css */
+        #div2{
+            background-color: beige;
+            color: brown;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>showing the different ways to add  css </h1>
+    
+        <!-- inline css is written within html tag -->
+    <div style="background-color: aqua;  border: 2px solid black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at rerum vitae quod odio totam tempore sit maiores non omnis perspiciatis, sunt expedita dolorem alias.</div>
+    
+    
+    <div id="div2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at rerum vitae quod odio totam tempore sit maiores non omnis perspiciatis, sunt expedita dolorem alias.</div>
+    <div class="div3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit at rerum vitae quod odio totam tempore sit maiores non omnis perspiciatis, sunt expedita dolorem alias.</div>
+    
+</body>
+</html>
